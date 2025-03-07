@@ -72,7 +72,7 @@ function HeroSection() {
 
           <div className='flex gap-4'>
             <h2 className='hidden md:inline'>Scroll Down</h2>
-            <FontAwesomeIcon icon={faArrowDown} className='text-green-500 animate-bounce' />
+            <FontAwesomeIcon icon={faArrowDown} className='text-green-500 px-4 md:px-0 animate-bounce' />
           </div>
         </div>
       </div>
