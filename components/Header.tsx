@@ -2,6 +2,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowDown } from '@fortawesome/free-solid-svg-icons'
 import {config} from '@fortawesome/fontawesome-svg-core';
 import '@fortawesome/fontawesome-svg-core/styles.css'
+import Link from 'next/link';
 config.autoAddCss = false;
 
 function Header() {
@@ -12,7 +13,11 @@ function Header() {
           <p className='font-medium text-grayscale text-xl'>Features</p>
           <FontAwesomeIcon icon={faArrowDown} className='text-green-500' />
         </div>
-        <p className='font-medium text-grayscale text-xl'>Help</p>
+        
+        <Link href='/press'>
+        <p className='font-medium text-grayscale text-xl'>Press</p>
+        </Link>
+        
         <div className='flex items-center gap-2'>
           <p className='font-medium text-grayscale text-xl'>Company</p>
           <FontAwesomeIcon icon={faArrowDown} className='text-green-500' />

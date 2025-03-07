@@ -111,26 +111,26 @@ function ConverterForm() {
 
 
             <div className="flex justify-between mb-1 text-gray-600">
-              <span>Amount we’ll convert</span>
-              <span>Guaranteed rate (1 hrs)</span>
+              <span className="text-sm font-normal text-navy">Amount we’ll convert</span>
+              <span className="text-sm font-normal text-navy">Guaranteed rate (1 hrs)</span>
 
             </div>
 
             <div className="flex justify-between mb-1 text-gray-600">
-              <span>{amountWeConvert.toFixed(2)}</span>
-              <span>£1 / GH₵{exchangeRate?.toFixed(2)}</span>
+              <span className="text-darkblue">{amountWeConvert.toFixed(2)}</span>
+              <span  className="text-darkblue">£1 / GH₵{exchangeRate?.toFixed(2)}</span>
             </div>
 
             <div className="flex justify-between mb-1 text-gray-600">
-              <span>Total to Pay</span>
-              <span>Average duration</span>
+              <span className="text-sm font-normal text-navy">Total to Pay</span>
+              <span className="text-sm font-normal text-navy">Average duration</span>
 
             </div>
 
             <div className="flex justify-between mb-4 text-gray-600">
 
-              <span>{totalToPay.toFixed(2)} GBP</span>
-              <span>Instant</span>
+              <span  className="text-darkblue">{totalToPay.toFixed(2)} GBP</span>
+              <span  className="text-darkblue">Instant</span>
             </div>
 
             <button
@@ -155,8 +155,8 @@ function ConverterForm() {
             <p className="mt-4 text-gray-600 max-w-md">
               Bomba provides you the luxury of sending money at rates that suit you.
               You can easily send and swap money between GBP, USD, NGN and up to 20
-              other African countries using Bomba’s <span className="font-semibold">Swap</span> and
-              <span className="font-semibold"> Express</span> services. Beat bank rates, save time
+              other African countries using Bomba’s <span className="font-semibold text-green-400">Swap</span> and
+              <span className="font-semibold text-green-400"> Express</span> services. Beat bank rates, save time
               and gain more.
             </p>
           </div>

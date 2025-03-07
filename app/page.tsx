@@ -8,7 +8,7 @@ import ConverterForm from "@/components/ConverterForm";
 import MobileNav from "@/components/MobileNav";
 
 
-export default function Home() {
+export default function Press() {
   return (
     <main>
       
