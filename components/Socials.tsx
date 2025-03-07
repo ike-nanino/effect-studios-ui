@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 function Socials() {
   return (
-    <section className='flex flex-col-reverse md:flex-row justify-between items-center p-20'>
+    <section className='flex flex-col-reverse md:flex-row justify-between items-center mt-10 p-4 md:p-20'>
         <div>
             <div className='flex gap-4 mb-3 py-6'>
                 <Image 
